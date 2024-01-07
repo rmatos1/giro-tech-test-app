@@ -4,10 +4,12 @@ This project is a mobile application developed for a technical test. It was buil
 
 ## Screenshots
 
-<img src="src/assets/screenshots/login-filled.jpg" alt="login" width="300" height="667" />
-<img src="src/assets/screenshots/clients.jpg" alt="clients" width="300" height="667" />
-<img src="src/assets/screenshots/permissions.jpg" alt="login" width="300" height="667" />
-<img src="src/assets/screenshots/drawer.jpg" alt="login" width="300" height="667" />
+<div style="display: flex; flex-direction: row; flex-wrap: wrap">
+    <img src="src/assets/screenshots/login-filled.jpg" alt="login" width="300" height="667" />
+    <img src="src/assets/screenshots/clients.jpg" alt="clients" width="300" height="667" />
+    <img src="src/assets/screenshots/permissions.jpg" alt="login" width="300" height="667" />
+    <img src="src/assets/screenshots/drawer.jpg" alt="login" width="300" height="667" />
+</div>    
 
 ## Demo version
 
