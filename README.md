@@ -4,10 +4,10 @@ This project is a mobile application developed for a technical test. It was buil
 
 ## Screenshots
 
-![Login](<img src="src/assets/screenshots/login-filled.jpg" alt="login" width="300" height="667" />)
-![Clients](<img src="src/assets/screenshots/clients.jpg" alt="clients" width="300" height="667" />)
-![Permissions](<img src="src/assets/screenshots/permissions.jpg" alt="login" width="300" height="667" />)
-![Drawer](<img src="src/assets/screenshots/drawer.jpg" alt="login" width="300" height="667" />)
+<img src="src/assets/screenshots/login-filled.jpg" alt="login" width="300" height="667" />
+<img src="src/assets/screenshots/clients.jpg" alt="clients" width="300" height="667" />
+<img src="src/assets/screenshots/permissions.jpg" alt="login" width="300" height="667" />
+<img src="src/assets/screenshots/drawer.jpg" alt="login" width="300" height="667" />
 
 ## Demo version
 
