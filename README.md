@@ -11,15 +11,9 @@ This project is a mobile application developed for a technical test. It was buil
     <img src="src/assets/screenshots/drawer.jpg" alt="login" width="250" height="556" />
 </div>    
 
-## Demo version
-
-[Link](https://booking-test-app-seven.vercel.app/)
-
 ## Installation
 
-To get started with the project, follow these steps:
-
-1. Install dependencies:
+To get started with the project, clone the project and install the dependencies:
 
 ```sh
 npm install
