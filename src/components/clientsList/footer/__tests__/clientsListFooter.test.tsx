@@ -42,7 +42,7 @@ const setup = () => {
 
 describe("<ClientsListFooter />", () => {
 
-    test("should render correctly the four buttons and call changeSelectedPage on button press", () => {
+    test("should render correctly the four buttons and call changeSelectedPage on press button", () => {
         const wrapper = render(setup());
 
         const footerButtons = wrapper.getAllByTestId("footer-button");

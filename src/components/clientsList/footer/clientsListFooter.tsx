@@ -1,13 +1,7 @@
 import { View, Text, TouchableHighlight, Image, TextInput } from "react-native";
 import { globalStyles } from "../../../styles";
 import { clientsListFooterStyles } from "./clientsListFooter.styles";
-import { useClientsListFooterHelper } from "./clientsListFooterHelper.hook";
-
-interface FooterButtonProps {
-    page: number;
-    hasDoubleChevron?: boolean;
-    hasInvertedIcon?: boolean;
-}
+import { useClientsListFooterHelper, FooterButtonProps } from "./clientsListFooterHelper.hook";
 
 export const ClientsListFooter = ({ totalPages }: { totalPages: number }) => {
 
