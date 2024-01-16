@@ -1,9 +1,10 @@
 import { ScrollView, View, Text, Image } from "react-native"
-import { globalStyles, MAIN_ACTION_COLOR } from "../../styles";
+import { globalStyles } from "../../styles";
 import { loginStyles } from "./login.styles";
 import { useLoginHelper, AuthType } from "./loginHelper.hook";
 import { CustomButton, InputField } from "../../components";
 import { AuthModal, WarningModal } from "../../modals";
+import { MAX_PASSWORD_LENGTH } from "../../constants";
 
 export const Login = () => {
 
@@ -68,7 +69,7 @@ export const Login = () => {
                             onChange={onInputChange}
                             onSubmit={() => !isButtonDisabled && onAuth(AuthType.email)}
                             secureTextEntry={!showPassword}
-                            maxLenght={15}
+                            maxLenght={MAX_PASSWORD_LENGTH}
                             imgSrc={require('../../assets/icons/login/lock.png')}
                             onChangePasswordVisibility={onChangePasswordVisibility}
                             errorMsg="Please enter a valid password"
