@@ -8,7 +8,6 @@ export const AuthModal = () => {
 			animationType="fade"
 			visible
 			transparent
-			onRequestClose={() => false}
 	    >
 
 			<View style={modalStyles.overlay} />
